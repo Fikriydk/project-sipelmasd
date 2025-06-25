@@ -1,0 +1,7 @@
+.home-page {
+    background-image: url(../assets/background/home/element-image.png), url(../assets/background/home/element-blue.png);
+    background-size: 50% 68%, 60% 85%;
+    background-position: right 8% bottom 38%, right top;
+    background-repeat: no-repeat, no-repeat;
+    height: 100vh;
+}

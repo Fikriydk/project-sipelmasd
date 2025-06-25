@@ -1,0 +1,21 @@
+.layananutama-page {
+    background-image: url("../assets/background/layanan/element-5.png"),
+        url("../assets/background/layanan/element-4.png"),
+        url("../assets/background/layanan/element-2.png"),
+        url("../assets/background/layanan/element-1.png"),
+        url("../assets/background/layanan/element-3.png"),
+        url("../assets/background/layanan/element-gradient.png");
+    background-size: 15% 30%,
+        15% 30%,
+        15% 30%,
+        15% 30%,
+        50% 90%, 100% 100%;
+    background-repeat: no-repeat;
+    background-position: right 5% bottom 65%,
+        right 30% bottom,
+        right 5% bottom 5%,
+        right 30% bottom 50%,
+        bottom right,
+        top;
+    height: 100vh;
+}

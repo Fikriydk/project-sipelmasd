@@ -1,0 +1,62 @@
+.set-page {
+    background-image: url("../assets/background/layanan/element-gradient.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.profile-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.set-profile {
+    background-color: #BEBEBE;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.image-section img {
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.setting-section input {
+    border-color: transparent;
+    border-radius: 3px;
+    height: 30px;
+    width: 500px;
+}
+
+.setting-section button {
+    border-radius: 3px;
+    border-color: transparent;
+    width: 100px;
+    height: 30px;
+}
+
+.setting-section button:hover {
+    background-color: black;
+    color: white;
+}
+
+.setting-section  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+}

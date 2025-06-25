@@ -1,0 +1,20 @@
+# Jangan commit folder node_modules (berat & bisa diinstall ulang)
+node_modules/
+
+# Jangan commit file .env (biasanya berisi rahasia seperti JWT, DB URI)
+.env
+
+# Jika kamu build pakai Babel/TypeScript:
+dist/
+build/
+
+# File log dan sampah lainnya
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistem operasi & editor
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.vscode/

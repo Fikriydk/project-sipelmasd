@@ -1,0 +1,12 @@
+* {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.information {
+    color: black;
+    font-size: 10px;
+}

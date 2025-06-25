@@ -1,0 +1,52 @@
+.LoginPilihan-page {
+    background-image: url(../assets/background/login/element-bottom.png),
+        url(../assets/background/login/element-top.png);
+    background-size: 100% 100%, 100% 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom, top bottom;
+}
+
+.home img {
+    width: 50px;
+    margin: 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    background-color: #15AAE2;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.login-select-card img {
+    width: 50px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.login-select-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-select-card button {
+    background-color: white;
+    border-color: transparent;
+    border-radius: 3px;
+    margin: 5px;
+    width: 200px;
+}
+
+.login-select-card button:hover{
+    background-color: black;
+    color: white;
+}

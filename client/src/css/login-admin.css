@@ -1,0 +1,72 @@
+.loginadmin-page {
+    background-image: url(../assets/background/login/element-bottom.png),
+        url(../assets/background/login/element-top.png);
+    background-size: 100% 100%, 100% 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom, top bottom;
+    position: relative;
+}
+
+.home img {
+    position: absolute;
+    width: 50px;
+    margin: 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    background-color: #15AAE2;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.loginadmin-card img {
+    width: 50px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.loginadmin-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginadmin-card input {
+    border-radius: 3px;
+    border-color: transparent;
+    margin: 5px;
+}
+
+.loginadmin-card input:hover{
+    background-color: black;
+    color: white;
+}
+
+.loginadmin-button {
+    background-color: white;
+    border-color: transparent;
+    border-radius: 3px;
+    margin: 5px;
+    width: 95%;
+}
+
+.loginadmin-button:hover{
+    background-color: black;
+    color: white;
+}

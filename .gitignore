@@ -1,0 +1,16 @@
+# client
+/client/node_modules
+/client/build
+/client/.env
+
+# server
+/server/node_modules
+/server/.env
+
+# global
+.DS_Store
+*.log
+.env
+.env.local
+*.lock
+npm-debug.log*
